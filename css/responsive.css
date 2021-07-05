@@ -1,0 +1,169 @@
+@media(max-width: 1199px){
+    .brand-info{
+        padding: 30px 40px 30px 95px;
+    }
+
+    .design {
+        padding: 360px 110px 50px 110px;
+    }
+
+    .photography{
+        padding: 360px 117px 50px 117px;
+    }
+
+    .container {
+        max-width: 870px;
+    }
+
+    .testimonials .row {
+        margin: 50px -10px 0 -10px;
+    }
+
+    .column-3{
+        padding: 0 10px;
+    }
+}
+@media(max-width: 991px){
+    :root {
+        font-size: 13px;
+    }
+
+    .arrow {
+        margin-top: 15px;
+    }
+
+    .main-page{
+        margin-top: 95px;
+    }
+
+    .brand-info {
+        padding: 25px 30px;
+        text-align: center;
+    }
+
+    .brand-text {
+        margin-top: 15px;
+    }
+
+    .learn {
+        margin-top: 20px;
+    }
+
+    .design, .photography {
+        padding: 360px 70px 50px 70px;
+    }
+
+    .testimonials {
+        padding: 120px 0;
+    }
+
+    .container {
+        max-width: 665px;
+    }
+
+    .client-text, .client {
+        margin-top: 37px;
+    }
+}
+@media(max-width: 767px){
+    .main-nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+
+    .head {
+        padding: 32px 35px 0 35px;
+    }
+
+    .main-page {
+        margin-top: 88px;
+    }
+
+    .arrow {
+        margin-top: 37px;
+    }
+
+    .column-2, .column2, .column-3 {
+        width: 100%;
+    }
+
+    .order {
+        order: -1;
+    }
+
+    .brand-info {
+        padding: 64px 80px;
+    }
+
+    .design, .photography {
+        padding: 360px 80px 50px 80px;
+    }
+
+    .testimonials .row {
+        margin: 0 auto;
+    }
+
+    .column-3 {
+        padding: 50px 80px 0 80px;
+    }
+
+    .client-text {
+        display: inline-block;
+    }
+
+    .column-4 {
+        width: 50%;
+    }
+}
+@media(max-width: 565px){
+    .brand-info {
+        padding: 64px 50px;
+    }
+
+    .design, .photography {
+        padding: 360px 50px 50px 50px;
+    }
+
+    .column-3 {
+        padding: 50px 50px 0 50px;
+    }
+}
+@media(max-width: 480px){
+    :root {
+        font-size: 12px;
+    }
+
+    .head {
+        padding: 32px 24px 0 24px;
+    }
+
+    .main-page {
+        margin-top: 65px;
+        font-size: 3rem;
+    }
+
+    .arrow {
+        margin-top: 70px;
+    }
+
+    .brand-info {
+        padding: 64px 24px;
+    }
+
+    .design, .photography {
+        padding: 360px 24px 50px 24px;
+    }
+
+    .testimonials {
+        padding: 64px 0 75px 0;
+    }
+
+    .column-3 {
+        padding: 40px 24px 0 24px;
+    }
+}
