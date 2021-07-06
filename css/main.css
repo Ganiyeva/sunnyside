@@ -88,7 +88,56 @@ a{
 }
 
 .arrow{
+    opacity: 0;
     margin-top: 55px;
+    animation: arrow-anim 1s ease-in-out 1.5s forwards;
+}
+
+@keyframes arrow-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    33% {
+        transform: translateY(40px);
+    }
+    66% {
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.main-page span {
+    animation: blurFadeIn 1.5s ease-in backwards;
+}
+
+.main-page span:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.main-page span:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+@keyframes blurFadeIn {
+	0% {
+		opacity: 0;
+		text-shadow: 0px 0px 40px #fff;
+		-webkit-transform: scale(2);
+	}
+	50% {
+		opacity: 0.5;
+		text-shadow: 0px 0px 10px #fff;
+		-webkit-transform: scale(1.5);
+	}
+	100% {
+		opacity: 1;
+		text-shadow: 0px 0px 1px #fff;
+		-webkit-transform: scale(1);
+	}
 }
 
 /* BRAND */
@@ -234,6 +283,28 @@ a{
 
 .column-3{
     width: 33.33%;
+}
+
+.column-3{
+    animation: run 0.5s ease-in-out 3s backwards;
+}
+
+.next1 {
+    animation-delay: 3.5s;
+}
+
+.next2 {
+    animation-delay: 4s;
+}
+
+@keyframes run {
+    from {
+        transform: translateX(-2000px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 .client-text{
